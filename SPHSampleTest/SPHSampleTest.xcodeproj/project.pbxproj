@@ -11,13 +11,18 @@
 		6654FF7D1D04184C14C06A4F /* Pods_SPHSampleTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E45E501CA99259F0789C595 /* Pods_SPHSampleTestTests.framework */; };
 		E0AAA034248BCABD00351B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA033248BCABD00351B38 /* AppDelegate.swift */; };
 		E0AAA036248BCABD00351B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA035248BCABD00351B38 /* SceneDelegate.swift */; };
-		E0AAA038248BCABD00351B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA037248BCABD00351B38 /* ViewController.swift */; };
 		E0AAA03B248BCABD00351B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AAA039248BCABD00351B38 /* Main.storyboard */; };
 		E0AAA03E248BCABD00351B38 /* SPHSampleTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA03C248BCABD00351B38 /* SPHSampleTest.xcdatamodeld */; };
 		E0AAA040248BCABE00351B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AAA03F248BCABE00351B38 /* Assets.xcassets */; };
 		E0AAA043248BCABE00351B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AAA041248BCABE00351B38 /* LaunchScreen.storyboard */; };
 		E0AAA04E248BCABE00351B38 /* SPHSampleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA04D248BCABE00351B38 /* SPHSampleTestTests.swift */; };
 		E0AAA059248BCABE00351B38 /* SPHSampleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA058248BCABE00351B38 /* SPHSampleTestUITests.swift */; };
+		E0AAA06B248BED1D00351B38 /* MobileDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA06A248BED1D00351B38 /* MobileDataViewController.swift */; };
+		E0AAA06D248BED4800351B38 /* BaseURLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA06C248BED4800351B38 /* BaseURLConstant.swift */; };
+		E0AAA070248BEDD900351B38 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA06F248BEDD900351B38 /* BaseTableViewCell.swift */; };
+		E0AAA073248BEE1C00351B38 /* MobileDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA071248BEE1C00351B38 /* MobileDataTableViewCell.swift */; };
+		E0AAA074248BEE1C00351B38 /* MobileDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0AAA072248BEE1C00351B38 /* MobileDataTableViewCell.xib */; };
+		E0AAA079248BF40100351B38 /* MobileDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA078248BF40100351B38 /* MobileDataViewModel.swift */; };
 		FEC459DEE9FFCAF435840AA4 /* Pods_SPHSampleTest_SPHSampleTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADA740A7E4D7681BF006CB /* Pods_SPHSampleTest_SPHSampleTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +55,6 @@
 		E0AAA030248BCABD00351B38 /* SPHSampleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPHSampleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AAA033248BCABD00351B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0AAA035248BCABD00351B38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0AAA037248BCABD00351B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0AAA03A248BCABD00351B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0AAA03D248BCABD00351B38 /* SPHSampleTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SPHSampleTest.xcdatamodel; sourceTree = "<group>"; };
 		E0AAA03F248BCABE00351B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +66,12 @@
 		E0AAA054248BCABE00351B38 /* SPHSampleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHSampleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AAA058248BCABE00351B38 /* SPHSampleTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHSampleTestUITests.swift; sourceTree = "<group>"; };
 		E0AAA05A248BCABE00351B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AAA06A248BED1D00351B38 /* MobileDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileDataViewController.swift; sourceTree = "<group>"; };
+		E0AAA06C248BED4800351B38 /* BaseURLConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURLConstant.swift; sourceTree = "<group>"; };
+		E0AAA06F248BEDD900351B38 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		E0AAA071248BEE1C00351B38 /* MobileDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataTableViewCell.swift; sourceTree = "<group>"; };
+		E0AAA072248BEE1C00351B38 /* MobileDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileDataTableViewCell.xib; sourceTree = "<group>"; };
+		E0AAA078248BF40100351B38 /* MobileDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataViewModel.swift; sourceTree = "<group>"; };
 		E6A0564F505ABA4CAA4464D7 /* Pods-SPHSampleTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHSampleTestTests.release.xcconfig"; path = "Target Support Files/Pods-SPHSampleTestTests/Pods-SPHSampleTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,7 +123,6 @@
 				D139E46012A6075FE5350E80 /* Pods-SPHSampleTestTests.debug.xcconfig */,
 				E6A0564F505ABA4CAA4464D7 /* Pods-SPHSampleTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,9 +151,13 @@
 		E0AAA032248BCABD00351B38 /* SPHSampleTest */ = {
 			isa = PBXGroup;
 			children = (
+				E0AAA06E248BEDB700351B38 /* BaseClass */,
+				E0AAA067248BED1D00351B38 /* Constants */,
+				E0AAA068248BED1D00351B38 /* TableViewCell */,
+				E0AAA069248BED1D00351B38 /* ViewControllers */,
+				E0AAA077248BF3F000351B38 /* ViewModel */,
 				E0AAA033248BCABD00351B38 /* AppDelegate.swift */,
 				E0AAA035248BCABD00351B38 /* SceneDelegate.swift */,
-				E0AAA037248BCABD00351B38 /* ViewController.swift */,
 				E0AAA039248BCABD00351B38 /* Main.storyboard */,
 				E0AAA03F248BCABE00351B38 /* Assets.xcassets */,
 				E0AAA041248BCABE00351B38 /* LaunchScreen.storyboard */,
@@ -170,6 +183,47 @@
 				E0AAA05A248BCABE00351B38 /* Info.plist */,
 			);
 			path = SPHSampleTestUITests;
+			sourceTree = "<group>";
+		};
+		E0AAA067248BED1D00351B38 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E0AAA06C248BED4800351B38 /* BaseURLConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E0AAA068248BED1D00351B38 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E0AAA071248BEE1C00351B38 /* MobileDataTableViewCell.swift */,
+				E0AAA072248BEE1C00351B38 /* MobileDataTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E0AAA069248BED1D00351B38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0AAA06A248BED1D00351B38 /* MobileDataViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E0AAA06E248BEDB700351B38 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				E0AAA06F248BEDD900351B38 /* BaseTableViewCell.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		E0AAA077248BF3F000351B38 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0AAA078248BF40100351B38 /* MobileDataViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0AAA043248BCABE00351B38 /* LaunchScreen.storyboard in Resources */,
+				E0AAA074248BEE1C00351B38 /* MobileDataTableViewCell.xib in Resources */,
 				E0AAA040248BCABE00351B38 /* Assets.xcassets in Resources */,
 				E0AAA03B248BCABD00351B38 /* Main.storyboard in Resources */,
 			);
@@ -375,9 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0AAA038248BCABD00351B38 /* ViewController.swift in Sources */,
+				E0AAA073248BEE1C00351B38 /* MobileDataTableViewCell.swift in Sources */,
+				E0AAA06D248BED4800351B38 /* BaseURLConstant.swift in Sources */,
+				E0AAA079248BF40100351B38 /* MobileDataViewModel.swift in Sources */,
 				E0AAA034248BCABD00351B38 /* AppDelegate.swift in Sources */,
 				E0AAA036248BCABD00351B38 /* SceneDelegate.swift in Sources */,
+				E0AAA06B248BED1D00351B38 /* MobileDataViewController.swift in Sources */,
+				E0AAA070248BEDD900351B38 /* BaseTableViewCell.swift in Sources */,
 				E0AAA03E248BCABD00351B38 /* SPHSampleTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,7 +614,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87L3YW55B7;
 				INFOPLIST_FILE = SPHSampleTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -575,7 +634,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87L3YW55B7;
 				INFOPLIST_FILE = SPHSampleTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

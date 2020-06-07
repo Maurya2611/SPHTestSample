@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,6 @@
 		E0AAA043248BCABE00351B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AAA041248BCABE00351B38 /* LaunchScreen.storyboard */; };
 		E0AAA04E248BCABE00351B38 /* SPHSampleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA04D248BCABE00351B38 /* SPHSampleTestTests.swift */; };
 		E0AAA059248BCABE00351B38 /* SPHSampleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA058248BCABE00351B38 /* SPHSampleTestUITests.swift */; };
-		E0AAA06B248BED1D00351B38 /* MobileDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA06A248BED1D00351B38 /* MobileDataViewController.swift */; };
 		E0AAA06D248BED4800351B38 /* BaseURLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA06C248BED4800351B38 /* BaseURLConstant.swift */; };
 		E0AAA070248BEDD900351B38 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA06F248BEDD900351B38 /* BaseTableViewCell.swift */; };
 		E0AAA073248BEE1C00351B38 /* MobileDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA071248BEE1C00351B38 /* MobileDataTableViewCell.swift */; };
@@ -28,6 +27,7 @@
 		E0AAA07F248C98ED00351B38 /* MobileDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA07E248C98ED00351B38 /* MobileDataPresenter.swift */; };
 		E0AAA081248C993800351B38 /* MobileDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA080248C993800351B38 /* MobileDataWorker.swift */; };
 		E0AAA083248C9ACD00351B38 /* MobileDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA082248C9ACD00351B38 /* MobileDataRouter.swift */; };
+		E0AAA086248CAA8000351B38 /* MobileDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA085248CAA8000351B38 /* MobileDataViewController.swift */; };
 		FEC459DEE9FFCAF435840AA4 /* Pods_SPHSampleTest_SPHSampleTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADA740A7E4D7681BF006CB /* Pods_SPHSampleTest_SPHSampleTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,7 +71,6 @@
 		E0AAA054248BCABE00351B38 /* SPHSampleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHSampleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AAA058248BCABE00351B38 /* SPHSampleTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHSampleTestUITests.swift; sourceTree = "<group>"; };
 		E0AAA05A248BCABE00351B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0AAA06A248BED1D00351B38 /* MobileDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileDataViewController.swift; sourceTree = "<group>"; };
 		E0AAA06C248BED4800351B38 /* BaseURLConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURLConstant.swift; sourceTree = "<group>"; };
 		E0AAA06F248BEDD900351B38 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		E0AAA071248BEE1C00351B38 /* MobileDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataTableViewCell.swift; sourceTree = "<group>"; };
@@ -82,6 +81,7 @@
 		E0AAA07E248C98ED00351B38 /* MobileDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataPresenter.swift; sourceTree = "<group>"; };
 		E0AAA080248C993800351B38 /* MobileDataWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileDataWorker.swift; sourceTree = "<group>"; };
 		E0AAA082248C9ACD00351B38 /* MobileDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataRouter.swift; sourceTree = "<group>"; };
+		E0AAA085248CAA8000351B38 /* MobileDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileDataViewController.swift; sourceTree = "<group>"; };
 		E6A0564F505ABA4CAA4464D7 /* Pods-SPHSampleTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHSampleTestTests.release.xcconfig"; path = "Target Support Files/Pods-SPHSampleTestTests/Pods-SPHSampleTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,10 +161,10 @@
 		E0AAA032248BCABD00351B38 /* SPHSampleTest */ = {
 			isa = PBXGroup;
 			children = (
+				E0AAA084248CAA8000351B38 /* ViewController */,
 				E0AAA06E248BEDB700351B38 /* BaseClass */,
 				E0AAA067248BED1D00351B38 /* Constants */,
 				E0AAA068248BED1D00351B38 /* TableViewCell */,
-				E0AAA069248BED1D00351B38 /* ViewControllers */,
 				E0AAA077248BF3F000351B38 /* VIP */,
 				E0AAA033248BCABD00351B38 /* AppDelegate.swift */,
 				E0AAA035248BCABD00351B38 /* SceneDelegate.swift */,
@@ -212,14 +212,6 @@
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
-		E0AAA069248BED1D00351B38 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E0AAA06A248BED1D00351B38 /* MobileDataViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		E0AAA06E248BEDB700351B38 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +231,14 @@
 				E0AAA082248C9ACD00351B38 /* MobileDataRouter.swift */,
 			);
 			path = VIP;
+			sourceTree = "<group>";
+		};
+		E0AAA084248CAA8000351B38 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0AAA085248CAA8000351B38 /* MobileDataViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,13 +483,13 @@
 			files = (
 				E0AAA07D248C984200351B38 /* MobileDataModel.swift in Sources */,
 				E0AAA07F248C98ED00351B38 /* MobileDataPresenter.swift in Sources */,
+				E0AAA086248CAA8000351B38 /* MobileDataViewController.swift in Sources */,
 				E0AAA073248BEE1C00351B38 /* MobileDataTableViewCell.swift in Sources */,
 				E0AAA06D248BED4800351B38 /* BaseURLConstant.swift in Sources */,
 				E0AAA079248BF40100351B38 /* MobileDataViewModel.swift in Sources */,
 				E0AAA034248BCABD00351B38 /* AppDelegate.swift in Sources */,
 				E0AAA07B248C981100351B38 /* MobileDataInteractor.swift in Sources */,
 				E0AAA036248BCABD00351B38 /* SceneDelegate.swift in Sources */,
-				E0AAA06B248BED1D00351B38 /* MobileDataViewController.swift in Sources */,
 				E0AAA081248C993800351B38 /* MobileDataWorker.swift in Sources */,
 				E0AAA083248C9ACD00351B38 /* MobileDataRouter.swift in Sources */,
 				E0AAA070248BEDD900351B38 /* BaseTableViewCell.swift in Sources */,

@@ -15,6 +15,3 @@ struct MobileDataViewModel : Equatable {
     var volumeDataDecrease: Bool = false
 }
 
-func ==(lhs: MobileDataViewModel, rhs: MobileDataViewModel) -> Bool {
-    return (lhs.volume == rhs.volume || lhs.quarter == rhs.quarter || lhs.year == rhs.year ||  lhs.id == rhs.id || lhs.volumeDataDecrease == rhs.volumeDataDecrease)
-}

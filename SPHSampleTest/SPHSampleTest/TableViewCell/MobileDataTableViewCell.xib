@@ -19,17 +19,6 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JYb-aZ-aLz">
                         <rect key="frame" x="10" y="10" width="394" height="70.5"/>
                         <subviews>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sm8-s4-Nds">
-                                <rect key="frame" x="344" y="20.5" width="40" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Xbv-u5-CVt"/>
-                                    <constraint firstAttribute="width" constant="40" id="aTb-s9-7PA"/>
-                                </constraints>
-                                <state key="normal" image="IconChart"/>
-                                <connections>
-                                    <action selector="clickOnButtonEvent:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="pXP-xB-dH9"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6ci-RM-o47">
                                 <rect key="frame" x="10" y="0.0" width="374" height="30"/>
                                 <subviews>
@@ -81,6 +70,17 @@
                                     <constraint firstItem="xXi-Hj-KFu" firstAttribute="leading" secondItem="BS4-oP-LwU" secondAttribute="leading" id="s4b-iH-bXj"/>
                                 </constraints>
                             </stackView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sm8-s4-Nds">
+                                <rect key="frame" x="344" y="15.5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="HHi-A4-hZd"/>
+                                    <constraint firstAttribute="width" constant="40" id="dlc-yr-65F"/>
+                                </constraints>
+                                <state key="normal" image="IconChart"/>
+                                <connections>
+                                    <action selector="clickOnButtonEvent:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="pXP-xB-dH9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -89,11 +89,10 @@
                             <constraint firstItem="BS4-oP-LwU" firstAttribute="top" secondItem="6ci-RM-o47" secondAttribute="bottom" constant="10" id="JCY-SM-eSl"/>
                             <constraint firstItem="6ci-RM-o47" firstAttribute="leading" secondItem="JYb-aZ-aLz" secondAttribute="leading" constant="10" id="KnQ-CQ-Juo"/>
                             <constraint firstItem="6ci-RM-o47" firstAttribute="top" secondItem="JYb-aZ-aLz" secondAttribute="top" id="PRW-6n-ouO"/>
+                            <constraint firstItem="Sm8-s4-Nds" firstAttribute="centerY" secondItem="JYb-aZ-aLz" secondAttribute="centerY" id="UaS-oA-nQ7"/>
                             <constraint firstItem="BS4-oP-LwU" firstAttribute="leading" secondItem="JYb-aZ-aLz" secondAttribute="leading" constant="10" id="XpN-ty-zku"/>
                             <constraint firstAttribute="trailing" secondItem="6ci-RM-o47" secondAttribute="trailing" constant="10" id="Y2e-bt-GJd"/>
-                            <constraint firstAttribute="bottom" secondItem="Sm8-s4-Nds" secondAttribute="bottom" constant="10" id="hCW-mX-ShD"/>
-                            <constraint firstItem="Sm8-s4-Nds" firstAttribute="centerY" secondItem="JYb-aZ-aLz" secondAttribute="centerY" constant="5.25" id="kw8-nD-Yns"/>
-                            <constraint firstAttribute="trailing" secondItem="Sm8-s4-Nds" secondAttribute="trailing" constant="10" id="rok-Wi-Xsf"/>
+                            <constraint firstAttribute="trailing" secondItem="Sm8-s4-Nds" secondAttribute="trailing" constant="10" id="dTm-Bg-CL3"/>
                         </constraints>
                     </view>
                 </subviews>

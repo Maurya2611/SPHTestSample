@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		4627B0D3C9CE4FD079565E32 /* Pods_SPHSampleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9447DF83A3110F53553F94FF /* Pods_SPHSampleTest.framework */; };
 		6654FF7D1D04184C14C06A4F /* Pods_SPHSampleTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E45E501CA99259F0789C595 /* Pods_SPHSampleTestTests.framework */; };
+		E09B0A0A248CB20600E5F955 /* SPHSampleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B0A09248CB20500E5F955 /* SPHSampleTestUITests.swift */; };
+		E09B0A0C248CB30C00E5F955 /* MobileDataInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B0A0B248CB30C00E5F955 /* MobileDataInteractorTests.swift */; };
+		E09B0A0E248CB42400E5F955 /* MobileDataPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B0A0D248CB42400E5F955 /* MobileDataPresenterTests.swift */; };
+		E09B0A10248CB57200E5F955 /* MobileDataWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B0A0F248CB57200E5F955 /* MobileDataWorkerTests.swift */; };
 		E0AAA034248BCABD00351B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA033248BCABD00351B38 /* AppDelegate.swift */; };
 		E0AAA036248BCABD00351B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA035248BCABD00351B38 /* SceneDelegate.swift */; };
 		E0AAA03B248BCABD00351B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AAA039248BCABD00351B38 /* Main.storyboard */; };
 		E0AAA03E248BCABD00351B38 /* SPHSampleTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA03C248BCABD00351B38 /* SPHSampleTest.xcdatamodeld */; };
 		E0AAA040248BCABE00351B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AAA03F248BCABE00351B38 /* Assets.xcassets */; };
 		E0AAA043248BCABE00351B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AAA041248BCABE00351B38 /* LaunchScreen.storyboard */; };
-		E0AAA04E248BCABE00351B38 /* SPHSampleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA04D248BCABE00351B38 /* SPHSampleTestTests.swift */; };
-		E0AAA059248BCABE00351B38 /* SPHSampleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA058248BCABE00351B38 /* SPHSampleTestUITests.swift */; };
 		E0AAA06D248BED4800351B38 /* BaseURLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA06C248BED4800351B38 /* BaseURLConstant.swift */; };
 		E0AAA070248BEDD900351B38 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA06F248BEDD900351B38 /* BaseTableViewCell.swift */; };
 		E0AAA073248BEE1C00351B38 /* MobileDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA071248BEE1C00351B38 /* MobileDataTableViewCell.swift */; };
@@ -28,6 +30,7 @@
 		E0AAA081248C993800351B38 /* MobileDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA080248C993800351B38 /* MobileDataWorker.swift */; };
 		E0AAA083248C9ACD00351B38 /* MobileDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA082248C9ACD00351B38 /* MobileDataRouter.swift */; };
 		E0AAA086248CAA8000351B38 /* MobileDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA085248CAA8000351B38 /* MobileDataViewController.swift */; };
+		E0AAA088248CAF5B00351B38 /* MobileDataViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA087248CAF5B00351B38 /* MobileDataViewControllerTests.swift */; };
 		FEC459DEE9FFCAF435840AA4 /* Pods_SPHSampleTest_SPHSampleTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADA740A7E4D7681BF006CB /* Pods_SPHSampleTest_SPHSampleTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,10 @@
 		9E45E501CA99259F0789C595 /* Pods_SPHSampleTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHSampleTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D139E46012A6075FE5350E80 /* Pods-SPHSampleTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHSampleTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SPHSampleTestTests/Pods-SPHSampleTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF24E0AC6B91C052AC2F03D7 /* Pods-SPHSampleTest-SPHSampleTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHSampleTest-SPHSampleTestUITests.release.xcconfig"; path = "Target Support Files/Pods-SPHSampleTest-SPHSampleTestUITests/Pods-SPHSampleTest-SPHSampleTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E09B0A09248CB20500E5F955 /* SPHSampleTestUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPHSampleTestUITests.swift; sourceTree = "<group>"; };
+		E09B0A0B248CB30C00E5F955 /* MobileDataInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataInteractorTests.swift; sourceTree = "<group>"; };
+		E09B0A0D248CB42400E5F955 /* MobileDataPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataPresenterTests.swift; sourceTree = "<group>"; };
+		E09B0A0F248CB57200E5F955 /* MobileDataWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataWorkerTests.swift; sourceTree = "<group>"; };
 		E0AAA030248BCABD00351B38 /* SPHSampleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPHSampleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AAA033248BCABD00351B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0AAA035248BCABD00351B38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,10 +73,8 @@
 		E0AAA042248BCABE00351B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0AAA044248BCABE00351B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0AAA049248BCABE00351B38 /* SPHSampleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHSampleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0AAA04D248BCABE00351B38 /* SPHSampleTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHSampleTestTests.swift; sourceTree = "<group>"; };
 		E0AAA04F248BCABE00351B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0AAA054248BCABE00351B38 /* SPHSampleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHSampleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0AAA058248BCABE00351B38 /* SPHSampleTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHSampleTestUITests.swift; sourceTree = "<group>"; };
 		E0AAA05A248BCABE00351B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0AAA06C248BED4800351B38 /* BaseURLConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURLConstant.swift; sourceTree = "<group>"; };
 		E0AAA06F248BEDD900351B38 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
@@ -82,6 +87,7 @@
 		E0AAA080248C993800351B38 /* MobileDataWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileDataWorker.swift; sourceTree = "<group>"; };
 		E0AAA082248C9ACD00351B38 /* MobileDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataRouter.swift; sourceTree = "<group>"; };
 		E0AAA085248CAA8000351B38 /* MobileDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileDataViewController.swift; sourceTree = "<group>"; };
+		E0AAA087248CAF5B00351B38 /* MobileDataViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataViewControllerTests.swift; sourceTree = "<group>"; };
 		E6A0564F505ABA4CAA4464D7 /* Pods-SPHSampleTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHSampleTestTests.release.xcconfig"; path = "Target Support Files/Pods-SPHSampleTestTests/Pods-SPHSampleTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,8 +186,11 @@
 		E0AAA04C248BCABE00351B38 /* SPHSampleTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				E0AAA04D248BCABE00351B38 /* SPHSampleTestTests.swift */,
 				E0AAA04F248BCABE00351B38 /* Info.plist */,
+				E0AAA087248CAF5B00351B38 /* MobileDataViewControllerTests.swift */,
+				E09B0A0B248CB30C00E5F955 /* MobileDataInteractorTests.swift */,
+				E09B0A0D248CB42400E5F955 /* MobileDataPresenterTests.swift */,
+				E09B0A0F248CB57200E5F955 /* MobileDataWorkerTests.swift */,
 			);
 			path = SPHSampleTestTests;
 			sourceTree = "<group>";
@@ -189,7 +198,7 @@
 		E0AAA057248BCABE00351B38 /* SPHSampleTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E0AAA058248BCABE00351B38 /* SPHSampleTestUITests.swift */,
+				E09B0A09248CB20500E5F955 /* SPHSampleTestUITests.swift */,
 				E0AAA05A248BCABE00351B38 /* Info.plist */,
 			);
 			path = SPHSampleTestUITests;
@@ -321,6 +330,7 @@
 					};
 					E0AAA053248BCABE00351B38 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 						TestTargetID = E0AAA02F248BCABD00351B38;
 					};
 				};
@@ -501,7 +511,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0AAA04E248BCABE00351B38 /* SPHSampleTestTests.swift in Sources */,
+				E09B0A0C248CB30C00E5F955 /* MobileDataInteractorTests.swift in Sources */,
+				E09B0A10248CB57200E5F955 /* MobileDataWorkerTests.swift in Sources */,
+				E0AAA088248CAF5B00351B38 /* MobileDataViewControllerTests.swift in Sources */,
+				E09B0A0E248CB42400E5F955 /* MobileDataPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0AAA059248BCABE00351B38 /* SPHSampleTestUITests.swift in Sources */,
+				E09B0A0A248CB20600E5F955 /* SPHSampleTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,6 +766,7 @@
 			baseConfigurationReference = 6E3C2D25932E8C0D24DC0EC1 /* Pods-SPHSampleTest-SPHSampleTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87L3YW55B7;
 				INFOPLIST_FILE = SPHSampleTestUITests/Info.plist;
@@ -763,6 +777,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Chandresh.SPHSampleTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SPHSampleTest;
@@ -774,6 +789,7 @@
 			baseConfigurationReference = DF24E0AC6B91C052AC2F03D7 /* Pods-SPHSampleTest-SPHSampleTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87L3YW55B7;
 				INFOPLIST_FILE = SPHSampleTestUITests/Info.plist;

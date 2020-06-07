@@ -26,7 +26,7 @@ class MobileDataTableViewCell: BaseTableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         viewBg.backgroundColor = .cyan
-        viewBg.layer.cornerRadius = 10
+        viewBg.layer.cornerRadius = 8
         // Initialization code
     }
     func ConfigureCellWithData(data: MobileDataViewModel) {
@@ -41,6 +41,5 @@ class MobileDataTableViewCell: BaseTableViewCell {
     @IBAction func clickOnButtonEvent(_ sender: Any) {
         delegate?.showPopUpWithMessage()
     }
-
 }
 

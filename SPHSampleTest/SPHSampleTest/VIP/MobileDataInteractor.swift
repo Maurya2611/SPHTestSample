@@ -39,7 +39,7 @@ var worker: MobileDataWorker? = MobileDataWorker()
     var lastQData = 0.00
     var isValueDataDesc = false
     var yearlyMobileData = 0.00
-        for value in (record){
+        for value in (record) {
          let quarterData = value.quarter?.components(separatedBy: "-")
             year  = Int(quarterData?[0] ?? "") ?? 0
             if year >= 2008 && year <= 2019 {
@@ -61,12 +61,8 @@ var worker: MobileDataWorker? = MobileDataWorker()
     }
     
     func decInDataYearly(lastQData: Double, currentQData: Double, isValueDataDesc: Bool) -> Bool {
-        if !isValueDataDesc {
-            if currentQData < lastQData {
-                return true
-            }else {
-                return false
-            }
+        if !isValueDataDesc && currentQData > lastQData {
+            return false
         }
         return true
     }

@@ -66,14 +66,14 @@
 		0F290B861D6BA8F6D6D8A01EF41BB9F9 /* Pods-SPHSampleTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHSampleTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		184D0DF09411363CCC383E88E5732414 /* RSLoadingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSLoadingView.release.xcconfig; sourceTree = "<group>"; };
 		22BF6E260038BE4BD5C0DF8F6F1DF3C9 /* Pods-SPHSampleTest-SPHSampleTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPHSampleTest-SPHSampleTestUITests-dummy.m"; sourceTree = "<group>"; };
-		24302DD48009AFB751F3DBFBB629E01E /* RSLoadingView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RSLoadingView.bundle; path = "RSLoadingView-RSLoadingView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24302DD48009AFB751F3DBFBB629E01E /* RSLoadingView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSLoadingView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		245B8F315FAD35987E73B275660C0882 /* Pods-SPHSampleTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPHSampleTest-umbrella.h"; sourceTree = "<group>"; };
 		25A3DC7B2DC81237083FFBFDE4F3E95D /* Pods-SPHSampleTest-SPHSampleTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHSampleTest-SPHSampleTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2C158346B2663C09D9EF6C6F830F252E /* Pods-SPHSampleTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPHSampleTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C38A3AB573863D672A52B234EB742D3 /* RSLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSLoadingView.swift; path = RSLoadingView/Classes/RSLoadingView.swift; sourceTree = "<group>"; };
 		30ECA11080EAC28A1252C07A5152F918 /* Pods-SPHSampleTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPHSampleTest.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37870411017CC2E9E860EF8985826E08 /* SpinAlone.scnp */ = {isa = PBXFileReference; includeInIndex = 1; name = SpinAlone.scnp; path = RSLoadingView/Assets/SpinAlone.scnp; sourceTree = "<group>"; };
+		37870411017CC2E9E860EF8985826E08 /* SpinAlone.scnp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.scp; name = SpinAlone.scnp; path = RSLoadingView/Assets/SpinAlone.scnp; sourceTree = "<group>"; };
 		37C75DD24ED6CDF936FAD4EA910DDDCB /* RSLoadingContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSLoadingContainerView.swift; path = RSLoadingView/Classes/RSLoadingContainerView.swift; sourceTree = "<group>"; };
 		3851CD4B352C26431AFDFEFEACCFCF34 /* Pods-SPHSampleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHSampleTest.debug.xcconfig"; sourceTree = "<group>"; };
 		3C39914AAE1CFBFBD479147E6B4F4168 /* Pods-SPHSampleTest-SPHSampleTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPHSampleTest-SPHSampleTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -87,25 +87,25 @@
 		88A663A4A693BF73F54438FB715DAE98 /* RSLoadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSLoadingView-umbrella.h"; sourceTree = "<group>"; };
 		8F7AD62735C5DBA2D92FC1DC69419127 /* SpinAlone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = SpinAlone.png; path = RSLoadingView/Assets/SpinAlone.png; sourceTree = "<group>"; };
 		91C64E93B3FEFDF7CC70D8958E1E1BC4 /* RSLoadingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSLoadingView.modulemap; sourceTree = "<group>"; };
-		95B36348357EEB7DB0B395E52801F285 /* Pods_SPHSampleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPHSampleTest.framework; path = "Pods-SPHSampleTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B36348357EEB7DB0B395E52801F285 /* Pods_SPHSampleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHSampleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9999794B19B705D31055DCAA4FAE0BB0 /* RSLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSLoadingView-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FDC0C294BDAC8694FDE73B7729B8646 /* RSLoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSLoadingView-prefix.pch"; sourceTree = "<group>"; };
 		9FFDD5271689842248C75506A74A6410 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = RSLoadingView/Classes/Utils.swift; sourceTree = "<group>"; };
-		A7E6E9CB9AE96E599F69E2D9B2486813 /* Pods_SPHSampleTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPHSampleTestTests.framework; path = "Pods-SPHSampleTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E6E9CB9AE96E599F69E2D9B2486813 /* Pods_SPHSampleTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHSampleTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39230196C538BC04F4996BA8F50F5DA /* Pods-SPHSampleTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPHSampleTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B3C1FDCC2E2C6A6E645D4F2B7DD26318 /* ResourceBundle-RSLoadingView-RSLoadingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RSLoadingView-RSLoadingView-Info.plist"; sourceTree = "<group>"; };
 		BF3057C064ED948487FD3C4399A1725A /* Pods-SPHSampleTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHSampleTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF9E4B63C04881B46D7534BEA30AA5A6 /* Pods-SPHSampleTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHSampleTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		D35F71F999A67AC7F7A4DF0ABF9A3BCF /* Pods-SPHSampleTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPHSampleTest-frameworks.sh"; sourceTree = "<group>"; };
 		D3BE79A66F5BFD97A9CEC6B0BC8E246A /* Pods-SPHSampleTest-SPHSampleTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHSampleTest-SPHSampleTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7C56ED6C967A90F5F306AED93EEE256 /* Twins.scnp */ = {isa = PBXFileReference; includeInIndex = 1; name = Twins.scnp; path = RSLoadingView/Assets/Twins.scnp; sourceTree = "<group>"; };
+		D7C56ED6C967A90F5F306AED93EEE256 /* Twins.scnp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.scp; name = Twins.scnp; path = RSLoadingView/Assets/Twins.scnp; sourceTree = "<group>"; };
 		D92A4BC6D931526B02F944D9C350F028 /* Pods-SPHSampleTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPHSampleTest-dummy.m"; sourceTree = "<group>"; };
 		DA0A6CDCE0D25C22E06F9A6B2744F752 /* Pods-SPHSampleTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPHSampleTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA6B84F45885D7039039AA5304C632F5 /* Pods-SPHSampleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHSampleTest.release.xcconfig"; sourceTree = "<group>"; };
 		DBC196EFC9F468181B6F02518A6CFE91 /* Pods-SPHSampleTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPHSampleTestTests.modulemap"; sourceTree = "<group>"; };
-		DE23D129B6D4D37264E2E9082B09C87A /* RSLoadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSLoadingView.framework; path = RSLoadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFBF1BA4D685A43CFF73D4800DB83A18 /* Pods_SPHSampleTest_SPHSampleTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPHSampleTest_SPHSampleTestUITests.framework; path = "Pods-SPHSampleTest-SPHSampleTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE23D129B6D4D37264E2E9082B09C87A /* RSLoadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSLoadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBF1BA4D685A43CFF73D4800DB83A18 /* Pods_SPHSampleTest_SPHSampleTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPHSampleTest_SPHSampleTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B640B6537E789E70950C6990615589 /* Pods-SPHSampleTest-SPHSampleTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPHSampleTest-SPHSampleTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F251279E5D5680F70650785F8BEE0D92 /* RSLoadingSpinAlone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSLoadingSpinAlone.swift; path = RSLoadingView/Classes/RSLoadingSpinAlone.swift; sourceTree = "<group>"; };
 		F58022721F455A5CAD296D0C7E3BA633 /* RSLoadingTwins.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSLoadingTwins.swift; path = RSLoadingView/Classes/RSLoadingTwins.swift; sourceTree = "<group>"; };
@@ -230,7 +230,6 @@
 				20A0204F29AC657E85D8AD4EFEBE883D /* Resources */,
 				6E1D4BF36703781776F8B7915655A5E9 /* Support Files */,
 			);
-			name = RSLoadingView;
 			path = RSLoadingView;
 			sourceTree = "<group>";
 		};
@@ -443,6 +442,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					DC581306CD0DF3E92B40424B88951629 = {
+						LastSwiftMigration = 1110;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -787,6 +791,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -838,6 +843,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

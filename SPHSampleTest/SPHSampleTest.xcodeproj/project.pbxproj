@@ -23,6 +23,11 @@
 		E0AAA073248BEE1C00351B38 /* MobileDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA071248BEE1C00351B38 /* MobileDataTableViewCell.swift */; };
 		E0AAA074248BEE1C00351B38 /* MobileDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0AAA072248BEE1C00351B38 /* MobileDataTableViewCell.xib */; };
 		E0AAA079248BF40100351B38 /* MobileDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA078248BF40100351B38 /* MobileDataViewModel.swift */; };
+		E0AAA07B248C981100351B38 /* MobileDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA07A248C981100351B38 /* MobileDataInteractor.swift */; };
+		E0AAA07D248C984200351B38 /* MobileDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA07C248C984200351B38 /* MobileDataModel.swift */; };
+		E0AAA07F248C98ED00351B38 /* MobileDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA07E248C98ED00351B38 /* MobileDataPresenter.swift */; };
+		E0AAA081248C993800351B38 /* MobileDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA080248C993800351B38 /* MobileDataWorker.swift */; };
+		E0AAA083248C9ACD00351B38 /* MobileDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA082248C9ACD00351B38 /* MobileDataRouter.swift */; };
 		FEC459DEE9FFCAF435840AA4 /* Pods_SPHSampleTest_SPHSampleTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADA740A7E4D7681BF006CB /* Pods_SPHSampleTest_SPHSampleTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +77,11 @@
 		E0AAA071248BEE1C00351B38 /* MobileDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataTableViewCell.swift; sourceTree = "<group>"; };
 		E0AAA072248BEE1C00351B38 /* MobileDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileDataTableViewCell.xib; sourceTree = "<group>"; };
 		E0AAA078248BF40100351B38 /* MobileDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataViewModel.swift; sourceTree = "<group>"; };
+		E0AAA07A248C981100351B38 /* MobileDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataInteractor.swift; sourceTree = "<group>"; };
+		E0AAA07C248C984200351B38 /* MobileDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataModel.swift; sourceTree = "<group>"; };
+		E0AAA07E248C98ED00351B38 /* MobileDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataPresenter.swift; sourceTree = "<group>"; };
+		E0AAA080248C993800351B38 /* MobileDataWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileDataWorker.swift; sourceTree = "<group>"; };
+		E0AAA082248C9ACD00351B38 /* MobileDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataRouter.swift; sourceTree = "<group>"; };
 		E6A0564F505ABA4CAA4464D7 /* Pods-SPHSampleTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPHSampleTestTests.release.xcconfig"; path = "Target Support Files/Pods-SPHSampleTestTests/Pods-SPHSampleTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,7 +165,7 @@
 				E0AAA067248BED1D00351B38 /* Constants */,
 				E0AAA068248BED1D00351B38 /* TableViewCell */,
 				E0AAA069248BED1D00351B38 /* ViewControllers */,
-				E0AAA077248BF3F000351B38 /* ViewModel */,
+				E0AAA077248BF3F000351B38 /* VIP */,
 				E0AAA033248BCABD00351B38 /* AppDelegate.swift */,
 				E0AAA035248BCABD00351B38 /* SceneDelegate.swift */,
 				E0AAA039248BCABD00351B38 /* Main.storyboard */,
@@ -218,12 +228,17 @@
 			path = BaseClass;
 			sourceTree = "<group>";
 		};
-		E0AAA077248BF3F000351B38 /* ViewModel */ = {
+		E0AAA077248BF3F000351B38 /* VIP */ = {
 			isa = PBXGroup;
 			children = (
 				E0AAA078248BF40100351B38 /* MobileDataViewModel.swift */,
+				E0AAA07A248C981100351B38 /* MobileDataInteractor.swift */,
+				E0AAA07C248C984200351B38 /* MobileDataModel.swift */,
+				E0AAA07E248C98ED00351B38 /* MobileDataPresenter.swift */,
+				E0AAA080248C993800351B38 /* MobileDataWorker.swift */,
+				E0AAA082248C9ACD00351B38 /* MobileDataRouter.swift */,
 			);
-			path = ViewModel;
+			path = VIP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +252,7 @@
 				E0AAA02C248BCABD00351B38 /* Sources */,
 				E0AAA02D248BCABD00351B38 /* Frameworks */,
 				E0AAA02E248BCABD00351B38 /* Resources */,
+				107EA57FBAC3E9820EBCB067 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +290,7 @@
 				E0AAA050248BCABE00351B38 /* Sources */,
 				E0AAA051248BCABE00351B38 /* Frameworks */,
 				E0AAA052248BCABE00351B38 /* Resources */,
+				38773B649703B44B871F8198 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,6 +374,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		107EA57FBAC3E9820EBCB067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPHSampleTest/Pods-SPHSampleTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPHSampleTest/Pods-SPHSampleTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SPHSampleTest/Pods-SPHSampleTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38773B649703B44B871F8198 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPHSampleTest-SPHSampleTestUITests/Pods-SPHSampleTest-SPHSampleTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPHSampleTest-SPHSampleTestUITests/Pods-SPHSampleTest-SPHSampleTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SPHSampleTest-SPHSampleTestUITests/Pods-SPHSampleTest-SPHSampleTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9065782D5C605A102914CC1B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,12 +481,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AAA07D248C984200351B38 /* MobileDataModel.swift in Sources */,
+				E0AAA07F248C98ED00351B38 /* MobileDataPresenter.swift in Sources */,
 				E0AAA073248BEE1C00351B38 /* MobileDataTableViewCell.swift in Sources */,
 				E0AAA06D248BED4800351B38 /* BaseURLConstant.swift in Sources */,
 				E0AAA079248BF40100351B38 /* MobileDataViewModel.swift in Sources */,
 				E0AAA034248BCABD00351B38 /* AppDelegate.swift in Sources */,
+				E0AAA07B248C981100351B38 /* MobileDataInteractor.swift in Sources */,
 				E0AAA036248BCABD00351B38 /* SceneDelegate.swift in Sources */,
 				E0AAA06B248BED1D00351B38 /* MobileDataViewController.swift in Sources */,
+				E0AAA081248C993800351B38 /* MobileDataWorker.swift in Sources */,
+				E0AAA083248C9ACD00351B38 /* MobileDataRouter.swift in Sources */,
 				E0AAA070248BEDD900351B38 /* BaseTableViewCell.swift in Sources */,
 				E0AAA03E248BCABD00351B38 /* SPHSampleTest.xcdatamodeld in Sources */,
 			);

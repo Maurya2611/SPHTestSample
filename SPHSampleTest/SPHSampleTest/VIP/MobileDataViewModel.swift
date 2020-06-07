@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class MobileDataViewModel : Equatable {
+struct MobileDataViewModel : Equatable {
     var volume: String = ""
     var quarter: String = ""
     var year: String = ""
